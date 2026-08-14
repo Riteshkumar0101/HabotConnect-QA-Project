@@ -1,25 +1,26 @@
-# WCAG 2.1 AA Accessibility Audit Plan
+# WCAG 2.1/2.2 AA Accessibility Audit Plan
 
-## Tools
+## Objectives
 
-- Accessibility Scanner
-- Stark
-- TalkBack
-- VoiceOver
+Ensure that the Parent-LSA application complies with WCAG 2.1 and WCAG 2.2 AA standards.
 
-## Audit Checklist
+## Accessibility Checklist
 
-- Color contrast
-- Text scaling
-- Screen-reader support
-- Keyboard navigation
-- Alternative text
-- Touch-target sizing
+- Perceivable
+    - Alternative text
+    - Color contrast
+    - Text resizing
 
-## Process
+- Operable
+    - Keyboard navigation
+    - Touch target size
+    - Focus visibility
 
-1. Scan the application.
-2. Identify accessibility issues.
-3. Document findings.
-4. Apply fixes.
-5. Retest.
+- Understandable
+    - Form labels
+    - Error messages
+    - Consistent navigation
+
+- Robust
+    - Screen reader compatibility
+    - Semantic components

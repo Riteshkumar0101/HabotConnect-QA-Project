@@ -1,80 +1,40 @@
 # HabotConnect QA Automation Architecture
 
-## Candidate Information
+Full Legal Name:Ritesh Kumar
+Email:riteshkmar89@gmail.com
+Phone:7876014540
 
-Name: Ritesh Kumar
+## Project Overview
 
-Email: riteshkmar89@gmail.com
+Automated QA architecture for the HabotConnect Parent-LSA mobile application.
 
-Phone: 7876014540
+## Test Strategy
 
----
+- Unit testing
+- Integration testing
+- End-to-end testing
 
-## Project Objective
+## Accessibility
 
-Design a scalable mobile-first QA architecture for the HabotConnect Parent-LSA application.
+- WCAG 2.1 AA
+- WCAG 2.2 AA
 
----
+## CI/CD
 
-## Testing Strategy
-
-### Unit Testing
-
-Tool: Jest
-
-### Integration Testing
-
-Tool: Jest
-
-### End-to-End Testing
-
-Tool: Maestro
-
----
-
-## Accessibility Strategy
-
-Standard: WCAG 2.1 AA
-
-Tools:
-
-- Accessibility Scanner
-- Stark
-- TalkBack
-- VoiceOver
-
----
+- GitHub Actions
+- Husky
+- ESLint
+- Jest
 
 ## Performance Profiling
 
-Metrics:
+- Android Studio Profiler
+- Xcode Instruments
 
-- Startup time
-- API response time
-- Memory usage
-- CPU usage
+## Running the Project
 
----
+npm ci
 
-## CI/CD Pipeline
+npm run lint
 
-Tools:
-
-- GitHub Actions
-- ESLint
-- Husky
-- Fastlane
-
----
-
-## Repository Structure
-
-tests/
-
-accessibility/
-
-performance/
-
-.github/workflows/
-
-slides/
+npm test
